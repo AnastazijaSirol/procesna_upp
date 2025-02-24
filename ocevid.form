@@ -1,0 +1,65 @@
+{
+  "components": [
+    {
+      "text": "# Zapisnik o očevidu",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1lgdv0j",
+        "columns": null
+      },
+      "id": "Field_1bg2ail"
+    },
+    {
+      "label": "Unesite imena i prezimena sudionika",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1mje1yg",
+        "columns": null
+      },
+      "id": "Field_0ytwdzm",
+      "key": "podaci"
+    },
+    {
+      "label": "Unesite mjesto prometne neesreće",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1d7ndwt",
+        "columns": null
+      },
+      "id": "Field_0qho3vq",
+      "key": "mjesto"
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Unesite datum prometne nesreće",
+      "label": "Date time",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_1d7ndwt",
+        "columns": null
+      },
+      "id": "Field_1mo3jop",
+      "key": "vrijeme"
+    },
+    {
+      "label": "Opišite događaj prometne nesreće",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0p0srfm",
+        "columns": null
+      },
+      "id": "Field_1uf8ja8",
+      "key": "opis"
+    }
+  ],
+  "type": "default",
+  "id": "ocevid",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.28.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.22.0",
+  "schemaVersion": 16
+}

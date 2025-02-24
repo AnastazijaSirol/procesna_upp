@@ -1,0 +1,43 @@
+{
+  "components": [
+    {
+      "label": "Ima li ozlijeđenih?",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_0bl70l5",
+        "columns": null
+      },
+      "id": "Field_19cha75",
+      "key": "ozlijedeni"
+    },
+    {
+      "label": "Postoje li oštećenja na javnim dobrima?",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_14yhxb7",
+        "columns": null
+      },
+      "id": "Field_1bdepvz",
+      "key": "ostecena_javna_dobra"
+    },
+    {
+      "label": "Koliko je vozila sudjelovalo u prometnoj nesreći?",
+      "type": "number",
+      "layout": {
+        "row": "Row_1a8ay1w",
+        "columns": null
+      },
+      "id": "Field_1pnzmkw",
+      "key": "broj_vozila"
+    }
+  ],
+  "type": "default",
+  "id": "osiguravanje",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.28.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.22.0",
+  "schemaVersion": 16
+}

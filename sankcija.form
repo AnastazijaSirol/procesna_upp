@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "text": "# Sankcija",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_16dt0ga",
+        "columns": null
+      },
+      "id": "Field_06yo9wn"
+    },
+    {
+      "label": "Ime sankcioniranog",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0jx1uu3",
+        "columns": null
+      },
+      "id": "Field_0fvpui6",
+      "key": "ime_sankcioniranog"
+    },
+    {
+      "label": "Prezime sankcioniranog",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0jx1uu3",
+        "columns": null
+      },
+      "id": "Field_0mhq27v",
+      "key": "prezime_sankcioniranog"
+    },
+    {
+      "label": "Unesite iznos sankcije",
+      "type": "number",
+      "layout": {
+        "row": "Row_0baif27",
+        "columns": null
+      },
+      "id": "Field_0wyign4",
+      "key": "iznos_sankcije"
+    }
+  ],
+  "type": "default",
+  "id": "sankcija",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.28.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.22.0",
+  "schemaVersion": 16
+}
